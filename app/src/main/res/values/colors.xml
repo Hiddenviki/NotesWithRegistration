@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "my_orange">#9f8229</color>
+    <color name = "my_head_gray">#2b2b2c</color>
+    <color name = "my_left_gray">#222223</color>
+    <color name = "my_main_gray">#1e1e1e</color>
+    <color name="black">#FF000000</color>
+    <color name="my_white">#dedede</color>
+    <color name="another_white">#BABABA</color>
+</resources>

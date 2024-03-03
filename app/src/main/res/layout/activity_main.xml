@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_main_gray"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_bar_layout"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_notes_page_title"
+            android:text="My notes"
+            android:textSize="32sp"
+            android:textColor="@color/my_white"
+            android:textStyle="bold"
+            />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/menu_button"
+            android:src="@drawable/baseline_apps_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:tint="@color/my_white"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_bar_layout"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/my_white"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/baseline_add_24"
+        android:id="@+id/add_note_button"
+        />
+
+
+</RelativeLayout>
