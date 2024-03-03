@@ -1,4 +1,4 @@
-#Заметки С РЕГИСТРАЦИЕЙ
+#NOTES WITH WITH REGISTRATION
 
 Регистрация
 ![Регистрация](https://github.com/Hiddenviki/NotesWithRegistration/app/4readme/регистрация2.gif)
